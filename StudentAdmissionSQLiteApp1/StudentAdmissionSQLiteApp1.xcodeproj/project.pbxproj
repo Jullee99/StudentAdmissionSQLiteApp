@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F024B6626A3302A00227389 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F024B6526A3302A00227389 /* AppDelegate.swift */; };
+		9F024B6826A3302A00227389 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F024B6726A3302A00227389 /* SceneDelegate.swift */; };
+		9F024B6A26A3302A00227389 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F024B6926A3302A00227389 /* ViewController.swift */; };
+		9F024B6D26A3302A00227389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F024B6B26A3302A00227389 /* Main.storyboard */; };
+		9F024B6F26A3302B00227389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F024B6E26A3302B00227389 /* Assets.xcassets */; };
+		9F024B7226A3302B00227389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F024B7026A3302B00227389 /* LaunchScreen.storyboard */; };
+		9F024B7A26A330D400227389 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F024B7926A330D400227389 /* extensions.swift */; };
+		9F024B7D26A3344F00227389 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F024B7C26A3344F00227389 /* LoginVC.swift */; };
+		9F024B8226A336EB00227389 /* SQLiteHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F024B8126A336EB00227389 /* SQLiteHandler.swift */; };
+		9F024B8426A3373700227389 /* Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F024B8326A3373700227389 /* Students.swift */; };
+		9F024B8626A3378500227389 /* AdminVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F024B8526A3378500227389 /* AdminVC.swift */; };
+		9F024B8826A337CA00227389 /* StudentListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F024B8726A337CA00227389 /* StudentListVC.swift */; };
+		9F024B8A26A3381B00227389 /* addStudVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F024B8926A3381B00227389 /* addStudVC.swift */; };
+		9F024B8C26A3387000227389 /* StudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F024B8B26A3387000227389 /* StudentVC.swift */; };
+		9F024B8F26A338BA00227389 /* SQLiteNoticeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F024B8E26A338BA00227389 /* SQLiteNoticeHandler.swift */; };
+		9F024B9126A3391100227389 /* Notice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F024B9026A3391100227389 /* Notice.swift */; };
+		9F024B9326A3395700227389 /* NoticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F024B9226A3395700227389 /* NoticeVC.swift */; };
+		9F024B9526A3399300227389 /* addNewNoticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F024B9426A3399300227389 /* addNewNoticeVC.swift */; };
+		9F024B9726A339CA00227389 /* studNoticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F024B9626A339CA00227389 /* studNoticeVC.swift */; };
+		9F024B9926A33A0400227389 /* viewNoticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F024B9826A33A0400227389 /* viewNoticeVC.swift */; };
+		9F024B9B26A33A6200227389 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F024B9A26A33A6200227389 /* DataService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F024B6226A3302A00227389 /* StudentAdmissionSQLiteApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentAdmissionSQLiteApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F024B6526A3302A00227389 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F024B6726A3302A00227389 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9F024B6926A3302A00227389 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F024B6C26A3302A00227389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F024B6E26A3302B00227389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F024B7126A3302B00227389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F024B7326A3302B00227389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F024B7926A330D400227389 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		9F024B7C26A3344F00227389 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		9F024B8126A336EB00227389 /* SQLiteHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteHandler.swift; sourceTree = "<group>"; };
+		9F024B8326A3373700227389 /* Students.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Students.swift; sourceTree = "<group>"; };
+		9F024B8526A3378500227389 /* AdminVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminVC.swift; sourceTree = "<group>"; };
+		9F024B8726A337CA00227389 /* StudentListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListVC.swift; sourceTree = "<group>"; };
+		9F024B8926A3381B00227389 /* addStudVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addStudVC.swift; sourceTree = "<group>"; };
+		9F024B8B26A3387000227389 /* StudentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentVC.swift; sourceTree = "<group>"; };
+		9F024B8E26A338BA00227389 /* SQLiteNoticeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteNoticeHandler.swift; sourceTree = "<group>"; };
+		9F024B9026A3391100227389 /* Notice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notice.swift; sourceTree = "<group>"; };
+		9F024B9226A3395700227389 /* NoticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeVC.swift; sourceTree = "<group>"; };
+		9F024B9426A3399300227389 /* addNewNoticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNewNoticeVC.swift; sourceTree = "<group>"; };
+		9F024B9626A339CA00227389 /* studNoticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studNoticeVC.swift; sourceTree = "<group>"; };
+		9F024B9826A33A0400227389 /* viewNoticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewNoticeVC.swift; sourceTree = "<group>"; };
+		9F024B9A26A33A6200227389 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F024B5F26A3302A00227389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F024B5926A3302A00227389 = {
+			isa = PBXGroup;
+			children = (
+				9F024B6426A3302A00227389 /* StudentAdmissionSQLiteApp1 */,
+				9F024B6326A3302A00227389 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F024B6326A3302A00227389 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F024B6226A3302A00227389 /* StudentAdmissionSQLiteApp1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F024B6426A3302A00227389 /* StudentAdmissionSQLiteApp1 */ = {
+			isa = PBXGroup;
+			children = (
+				9F024B8D26A338A300227389 /* Notice */,
+				9F024B8026A336D000227389 /* Student */,
+				9F024B7F26A335D100227389 /* Admin */,
+				9F024B7B26A330F500227389 /* Extras */,
+				9F024B6926A3302A00227389 /* ViewController.swift */,
+				9F024B6B26A3302A00227389 /* Main.storyboard */,
+				9F024B6E26A3302B00227389 /* Assets.xcassets */,
+				9F024B7026A3302B00227389 /* LaunchScreen.storyboard */,
+				9F024B7326A3302B00227389 /* Info.plist */,
+				9F024B7C26A3344F00227389 /* LoginVC.swift */,
+			);
+			path = StudentAdmissionSQLiteApp1;
+			sourceTree = "<group>";
+		};
+		9F024B7B26A330F500227389 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				9F024B6726A3302A00227389 /* SceneDelegate.swift */,
+				9F024B7926A330D400227389 /* extensions.swift */,
+				9F024B6526A3302A00227389 /* AppDelegate.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		9F024B7F26A335D100227389 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				9F024B8526A3378500227389 /* AdminVC.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		9F024B8026A336D000227389 /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				9F024B8126A336EB00227389 /* SQLiteHandler.swift */,
+				9F024B8326A3373700227389 /* Students.swift */,
+				9F024B8726A337CA00227389 /* StudentListVC.swift */,
+				9F024B8926A3381B00227389 /* addStudVC.swift */,
+				9F024B8B26A3387000227389 /* StudentVC.swift */,
+				9F024B9A26A33A6200227389 /* DataService.swift */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		9F024B8D26A338A300227389 /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				9F024B8E26A338BA00227389 /* SQLiteNoticeHandler.swift */,
+				9F024B9026A3391100227389 /* Notice.swift */,
+				9F024B9226A3395700227389 /* NoticeVC.swift */,
+				9F024B9426A3399300227389 /* addNewNoticeVC.swift */,
+				9F024B9626A339CA00227389 /* studNoticeVC.swift */,
+				9F024B9826A33A0400227389 /* viewNoticeVC.swift */,
+			);
+			path = Notice;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F024B6126A3302A00227389 /* StudentAdmissionSQLiteApp1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F024B7626A3302B00227389 /* Build configuration list for PBXNativeTarget "StudentAdmissionSQLiteApp1" */;
+			buildPhases = (
+				9F024B5E26A3302A00227389 /* Sources */,
+				9F024B5F26A3302A00227389 /* Frameworks */,
+				9F024B6026A3302A00227389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudentAdmissionSQLiteApp1;
+			productName = StudentAdmissionSQLiteApp1;
+			productReference = 9F024B6226A3302A00227389 /* StudentAdmissionSQLiteApp1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F024B5A26A3302A00227389 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9F024B6126A3302A00227389 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 9F024B5D26A3302A00227389 /* Build configuration list for PBXProject "StudentAdmissionSQLiteApp1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F024B5926A3302A00227389;
+			productRefGroup = 9F024B6326A3302A00227389 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F024B6126A3302A00227389 /* StudentAdmissionSQLiteApp1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F024B6026A3302A00227389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F024B7226A3302B00227389 /* LaunchScreen.storyboard in Resources */,
+				9F024B6F26A3302B00227389 /* Assets.xcassets in Resources */,
+				9F024B6D26A3302A00227389 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F024B5E26A3302A00227389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F024B6A26A3302A00227389 /* ViewController.swift in Sources */,
+				9F024B8C26A3387000227389 /* StudentVC.swift in Sources */,
+				9F024B9126A3391100227389 /* Notice.swift in Sources */,
+				9F024B6626A3302A00227389 /* AppDelegate.swift in Sources */,
+				9F024B8626A3378500227389 /* AdminVC.swift in Sources */,
+				9F024B8226A336EB00227389 /* SQLiteHandler.swift in Sources */,
+				9F024B9326A3395700227389 /* NoticeVC.swift in Sources */,
+				9F024B8426A3373700227389 /* Students.swift in Sources */,
+				9F024B9926A33A0400227389 /* viewNoticeVC.swift in Sources */,
+				9F024B9B26A33A6200227389 /* DataService.swift in Sources */,
+				9F024B9726A339CA00227389 /* studNoticeVC.swift in Sources */,
+				9F024B8826A337CA00227389 /* StudentListVC.swift in Sources */,
+				9F024B8A26A3381B00227389 /* addStudVC.swift in Sources */,
+				9F024B6826A3302A00227389 /* SceneDelegate.swift in Sources */,
+				9F024B7A26A330D400227389 /* extensions.swift in Sources */,
+				9F024B8F26A338BA00227389 /* SQLiteNoticeHandler.swift in Sources */,
+				9F024B7D26A3344F00227389 /* LoginVC.swift in Sources */,
+				9F024B9526A3399300227389 /* addNewNoticeVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F024B6B26A3302A00227389 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F024B6C26A3302A00227389 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F024B7026A3302B00227389 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F024B7126A3302B00227389 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F024B7426A3302B00227389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F024B7526A3302B00227389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F024B7726A3302B00227389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StudentAdmissionSQLiteApp1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DCS.StudentAdmissionSQLiteApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F024B7826A3302B00227389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StudentAdmissionSQLiteApp1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DCS.StudentAdmissionSQLiteApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F024B5D26A3302A00227389 /* Build configuration list for PBXProject "StudentAdmissionSQLiteApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F024B7426A3302B00227389 /* Debug */,
+				9F024B7526A3302B00227389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F024B7626A3302B00227389 /* Build configuration list for PBXNativeTarget "StudentAdmissionSQLiteApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F024B7726A3302B00227389 /* Debug */,
+				9F024B7826A3302B00227389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F024B5A26A3302A00227389 /* Project object */;
+}
